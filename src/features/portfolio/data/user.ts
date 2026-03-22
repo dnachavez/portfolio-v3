@@ -112,5 +112,5 @@ export const USER: User = {
     "aws community day cebu",
     "google data analytics professional certificate",
   ],
-  dateCreated: "2023-10-20", // YYYY-MM-DD
+  dateCreated: "2026-03-23", // YYYY-MM-DD
 }

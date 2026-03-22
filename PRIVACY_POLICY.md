@@ -129,7 +129,7 @@ However, no system can be completely secure. I cannot guarantee absolute protect
 If you have any questions about this Privacy Policy, or if you want to make a request related to your data, you can contact me at:
 
 - **Email:** `dai@chanhdai.com`
-- **GitHub:** `https://github.com/ncdai`
+- **GitHub:** `https://github.com/dnachavez`
 
 ## 9. Changes to This Policy
 

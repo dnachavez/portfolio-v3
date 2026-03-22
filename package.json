@@ -1,8 +1,8 @@
 {
-  "name": "chanhdai.com",
+  "name": "dnachavez.com",
   "version": "0.1.0",
   "description": "A minimal, pixel-perfect dev portfolio and blog.",
-  "homepage": "https://chanhdai.com",
+  "homepage": "https://dnachavez.com",
   "license": "MIT",
   "author": {
     "name": "Nguyen Chanh Dai",
@@ -11,20 +11,20 @@
   },
   "contributors": [
     {
-      "name": "Nguyen Chanh Dai",
-      "email": "dai@chanhdai.com",
-      "url": "https://github.com/ncdai"
+      "name": "Dan Chavez",
+      "email": "dna.chavez@outlook.com",
+      "url": "https://github.com/dnachavez"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ncdai/chanhdai.com.git"
+    "url": "git+https://github.com/dnachavez/portfolio-v3.git"
   },
   "scripts": {
-    "dev": "portless ncdai next dev",
+    "dev": "portless dnachavez next dev",
     "build": "next build",
     "start": "next start",
-    "preview": "next build && portless ncdai next start",
+    "preview": "next build && portless dnachavez next start",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "check-types": "tsc --noEmit --pretty",

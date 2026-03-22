@@ -32,10 +32,11 @@ export const MAIN_NAV: NavItem[] = [
 
 export const X_USERNAME = "@dnachavez_dev"
 export const GITHUB_USERNAME = "dnachavez"
-export const SOURCE_CODE_GITHUB_REPO = "ncdai/chanhdai.com"
-export const SOURCE_CODE_GITHUB_URL = "https://github.com/ncdai/chanhdai.com"
+export const SOURCE_CODE_GITHUB_REPO = "dnachavez/portfolio-v3"
+export const SOURCE_CODE_GITHUB_URL =
+  "https://github.com/dnachavez/portfolio-v3"
 
-export const SPONSORSHIP_URL = "https://github.com/sponsors/ncdai"
+export const SPONSORSHIP_URL = "https://github.com/sponsors/dnachavez"
 
 export const UTM_PARAMS = {
   utm_source: "dnachavez.com",
