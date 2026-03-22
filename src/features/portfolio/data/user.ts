@@ -45,10 +45,9 @@ export const USER: User = {
 
 <p class="text-muted-foreground">* Peak metrics recorded; actual current figures may vary.</p>
 `,
-  avatar: "https://assets.chanhdai.com/images/chanhdai-avatar-ghibli.webp",
-  ogImage:
-    "https://assets.chanhdai.com/images/screenshot-og-image-dark.png?v=7",
-  namePronunciationUrl: "https://assets.chanhdai.com/audio/chanhdai.mp3?v=3",
+  avatar: "/images/chanhdai-avatar-ghibli.webp",
+  ogImage: "/images/screenshot-og-image-dark.png",
+  namePronunciationUrl: "/audio/chanhdai.mp3",
   timeZone: "Asia/Ho_Chi_Minh",
   keywords: [
     "ncdai",
