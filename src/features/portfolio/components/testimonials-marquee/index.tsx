@@ -7,8 +7,8 @@ import {
   MarqueeFade,
   MarqueeItem,
 } from "@/components/kibo-ui/marquee"
+import { TestimonialSpotlight } from "@/components/testimonial-spotlight"
 import { Button } from "@/components/ui/button"
-import { TestimonialSpotlight } from "@/registry/components/testimonial-spotlight"
 
 import { TESTIMONIALS_1, TESTIMONIALS_2 } from "../../data/testimonials"
 import type { Testimonial } from "../../types/testimonials"

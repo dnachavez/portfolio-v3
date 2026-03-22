@@ -13,7 +13,7 @@ import type { PackageManager } from "@/hooks/use-package-manager"
 import { usePackageManager } from "@/hooks/use-package-manager"
 import type { NpmCommands } from "@/types/unist"
 
-import { CopyButton } from "./copy-button"
+import { CopyButtonEnhanced as CopyButton } from "./copy-button"
 import { getIconForPackageManager } from "./icons"
 
 export function CodeBlockCommand({
