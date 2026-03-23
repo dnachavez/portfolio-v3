@@ -6,7 +6,6 @@ import { Awards } from "@/features/portfolio/components/awards"
 import { Blog } from "@/features/portfolio/components/blog"
 import { Bookmarks } from "@/features/portfolio/components/bookmarks"
 import { Certifications } from "@/features/portfolio/components/certifications"
-import { Components } from "@/features/portfolio/components/components"
 import { Experiences } from "@/features/portfolio/components/experiences"
 import { GitHubContributions } from "@/features/portfolio/components/github-contributions"
 import { Overview } from "@/features/portfolio/components/overview"
@@ -58,9 +57,6 @@ export default function Page() {
         <Separator />
 
         <TechStack />
-        <Separator />
-
-        <Components />
         <Separator />
 
         <Blog />

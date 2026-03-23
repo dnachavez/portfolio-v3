@@ -275,4 +275,32 @@ export const EXPERIENCES: Experience[] = [
       },
     ],
   },
+  {
+    id: "the-beginning",
+    companyName: "Where It All Started",
+    positions: [
+      {
+        id: "1",
+        title: "Self-taught Developer",
+        employmentPeriod: {
+          start: "2016",
+          end: "2021",
+        },
+        icon: "code",
+        description: `- Started coding through reverse engineering Android applications, learning Smali bytecode by decompiling APKs and understanding how software works from the inside out.
+- Self-taught PHP, Java, and web development using early mobile web builders (WAPKA, WAP, XHTML), building websites and tools from scratch before any formal education.
+- Explored cloud infrastructure early on, working with GCP and Windows servers on Azure; learned security fundamentals through dorking and penetration testing tools like Havij.
+- Collaborated with developer communities including ZyberPH Developers, Dark Developers, and DDEV Philippines, contributing to projects and learning from peers in the Filipino dev scene.`,
+        skills: [
+          "PHP",
+          "Java",
+          "Smali",
+          "XHTML",
+          "GCP",
+          "Azure",
+          "Reverse Engineering",
+        ],
+      },
+    ],
+  },
 ]
