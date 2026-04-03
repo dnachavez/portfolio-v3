@@ -49,7 +49,7 @@ export const USER: User = {
 - Dean's List (2022–Present) while working full-time across international engineering teams
 <p class="text-muted-foreground">* Metrics based on production data during tenure; actual current figures may vary.</p>
 `,
-  avatar: "/images/chanhdai-avatar-ghibli.webp",
+  avatar: "/images/dnachavez-avatar.png",
   ogImage: "/images/screenshot-og-image-dark.png",
   namePronunciationUrl: "/audio/chanhdai.mp3",
   timeZone: "Asia/Manila",
