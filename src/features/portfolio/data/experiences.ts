@@ -2,27 +2,29 @@ import type { Experience } from "../types/experiences"
 
 export const EXPERIENCES: Experience[] = [
   {
-    id: "shadcncraft",
-    companyName: "shadcncraft",
-    companyLogo: "/images/companies/shadcncraft.svg",
-    companyWebsite: "https://shadcncraft.com",
+    id: "aeva",
+    companyName: "Aeva AI Receptionist",
     positions: [
       {
         id: "1",
-        title: "Design Engineer",
+        title: "Full Stack Developer",
         employmentPeriod: {
-          start: "01.2026",
+          start: "02.2026",
         },
-        employmentType: "Full-time",
+        employmentType: "Contract",
         icon: "code",
-        description:
-          "- Work on the registry and React component library.\n- Design and build Pro application components and blocks, from Figma to production-ready React.",
+        description: `- Spearheading full stack development of Aeva, an AI-powered phone receptionist serving ~500 clinics and processing 100+ calls daily, working closely with the CTO to build the end-to-end call handling platform using React and Node.js hosted on Heroku; enabling 24/7 automated appointment booking, rescheduling, caller identification, and cancellations across Australia, New Zealand, UK, Ireland, and Canada.
+- Architected voice AI integration layer connecting VAPI with custom voice models, conversation flows, real-time transcription, and squad-based assistant routing, Cliniko for practice management, and Twilio for telephony; designed multi-provider telephony architecture supporting 5 country-specific configurations with carrier-level call routing and failover.
+- Led strategic initiative to migrate backend services and AI agents from Make.com to code after identifying scalability limitations as customer volume grew; completed notification system migration eliminating 100% of previously widespread missed-notification issues across the customer base.
+- Driving integration of additional practice management systems including Splose, Halaxy, and Jane App, expanding platform compatibility and broadening addressable market by an estimated 40%.`,
         skills: [
-          "TypeScript",
-          "Next.js",
-          "Tailwind CSS",
-          "shadcn/registry",
-          "Figma",
+          "React",
+          "Node.js",
+          "Heroku",
+          "VAPI",
+          "Twilio",
+          "Cliniko",
+          "Make.com",
         ],
         isExpanded: true,
       },
@@ -30,232 +32,227 @@ export const EXPERIENCES: Experience[] = [
     isCurrentEmployer: true,
   },
   {
-    id: "quaric",
-    companyName: "Quaric",
-    companyLogo: "/images/companies/quaric.svg",
-    companyWebsite: "https://quaric.com",
+    id: "goteam",
+    companyName: "GoTeam",
     positions: [
-      {
-        id: "2",
-        title: "Design Engineer",
-        employmentPeriod: {
-          start: "03.2024",
-        },
-        employmentType: "Part-time",
-        icon: "code",
-        description: `- Created Quaric Brand Identity.
-- Created the Quaric Design System to standardize design practices and accelerate development.
-
-In-house Project: [Quaric Website](https://quaric.com)
-- Designed the UI/UX for Quaric Website, delivering a seamless experience.
-- Developed online ordering to streamline purchases.
-- Integrated VNPAY-QR for secure transactions.
-- Registered the e-commerce site with [online.gov.vn](http://online.gov.vn/website/chi-tiet-115855) for compliance.
-
-In-house Project: [ZaDark](https://zadark.com)
-- Build and maintain ZaDark.com with Docusaurus, integrating AdSense.
-- Develop and maintain the ZaDark extension for Zalo Web on Chrome, Safari, Edge, and Firefox — with 20k+ active users via Chrome Web Store (as of Sep 2025).`,
-        skills: [
-          "Next.js",
-          "Strapi",
-          "Auth0",
-          "VNPAY-QR",
-          "Docker",
-          "NGINX",
-          "Google Cloud",
-          "Docusaurus",
-          "Extension",
-          "UI/UX Design",
-          "UX Writing",
-          "Design System",
-          "Brand Design",
-          "Figma",
-          "Research",
-        ],
-      },
       {
         id: "1",
-        title: "Founder",
+        title: "AI Specialist",
         employmentPeriod: {
-          start: "03.2024",
-        },
-        employmentType: "Part-time",
-        icon: "idea",
-        skills: ["Business Ownership", "Business Law", "Business Tax"],
-      },
-    ],
-    isCurrentEmployer: true,
-  },
-  {
-    id: "simplamo",
-    companyName: "Simplamo",
-    companyLogo: "/images/companies/simplamo.webp",
-    positions: [
-      {
-        id: "2",
-        title: "Senior Frontend Developer",
-        employmentPeriod: {
-          start: "10.2022",
-          end: "01.2026",
+          start: "06.2025",
+          end: "02.2026",
         },
         employmentType: "Full-time",
         icon: "code",
-        description: `- Built Tree & Gantt views features to improve goal organization, visibility, and progress tracking.
-- Developed [AI Chat](https://help.simplamo.com/features/simplamo-ai/ai-chat/guide_simplamo_ai_chat?ref=IN-926722) and [AI Assistant](https://help.simplamo.com/features/simplamo-ai/ai-expert/aiexpert-rockdiscribe?ref=IN-926722) features.
-- Developed [Whiteboards](https://help.simplamo.com/features/whiteboard/overview?ref=IN-926722) with real-time collaboration.
-- Built and maintained the [Zalo Mini App](https://zalo.me/s/1736112917405511258/) for Simplamo with seamless integration.
-- Developed interactive chart and analytics widgets for the [Dashboard](https://help.simplamo.com/features/dashboard/overview) to enhance data visualization.
-- Developed and maintained core features to enhance functionality and user experience.
-- Ensured UI/UX consistency and adherence to standards.
-- Implemented robust frontend solutions for web and mobile platforms.
-- Analyzed technical capabilities and provided optimal solutions.`,
+        description: `- Led design and rollout of multi-agent AI automation platform across research, analysis, and project management workflows, balancing cost, latency, and reliability constraints to reduce operational load by 70% for cross-functional U.S. client teams.
+- Architected n8n-based orchestration engine with intelligent task routing after evaluating event-driven vs schedule-based execution; chose hybrid approach to minimize latency while controlling API costs, eliminating 100% of manual triage.
+- Drove model selection for research agents by benchmarking OpenAI's o4-mini vs o3-deep-research, identifying 40% cost savings with o4-mini for routine research while reserving o3-deep-research for complex analysis, cutting research time by 80%.
+- Designed financial analysis agent applying custom business validation logic to operational data; traded strict schema enforcement for flexible JSON output to reduce parsing failures by 85%.
+- Built comment-triggered automation system that parses natural language inputs to update task metadata; implemented NLP-based intent classification that saved 15+ hours weekly with 95% accuracy.
+- Developed document generator agents with memory-equipped processing and curated knowledge banks; chose template-based generation to ensure brand consistency while reducing document cycle time by 90%.
+- Designed cross-system data synchronization workflows between project management platforms and external databases; chose Zapier over custom ETL to minimize development burden, improving data consistency by 95%.
+- Architected Next.js conversational agents with Supabase backends for goal setting and content publishing; chose Vercel Edge Functions for lower cold-start latency, increasing content output by 100% while maintaining sub-100ms response times.
+- Designed bidirectional calendar synchronization system with Power Automate workflow, eliminating 100% of manual calendar duplication and reducing scheduling conflicts by 80%.`,
+        skills: [
+          "n8n",
+          "OpenAI",
+          "Next.js",
+          "Supabase",
+          "Vercel",
+          "Zapier",
+          "Power Automate",
+          "NLP",
+        ],
+      },
+    ],
+  },
+  {
+    id: "framework",
+    companyName: "Framework",
+    positions: [
+      {
+        id: "1",
+        title: "Founding Engineer",
+        employmentPeriod: {
+          start: "09.2024",
+          end: "03.2025",
+        },
+        employmentType: "Contract",
+        icon: "code",
+        description: `- Owned end-to-end design and solo development of AI responder system under ambiguous product requirements, evaluating RAG vs fine-tuning approaches; chose RAG for faster iteration and lower training costs, achieving 92% response accuracy while reducing implementation time by 60%.
+- Architected AI Task Manager from zero to production, defining scope and technical strategy without external oversight; chose event-driven architecture over polling-based approach to minimize latency and resource consumption, reducing customer response cycles by 50%.
+- Designed serverless infrastructure balancing cost and performance constraints; evaluated Lambda vs ECS Fargate, chose Lambda with concurrent execution limits and dead-letter queues, maintaining 99.9% uptime and cutting infrastructure spend by 40%.
+- Identified integration bottleneck risks early in third-party API dependencies; implemented circuit breaker pattern and exponential backoff retry logic, reducing API timeout errors by 85%.
+- Drove technical decisions autonomously as sole engineer, establishing design patterns, API contracts, and error handling standards that became foundation for future team scaling.`,
+        skills: [
+          "RAG",
+          "AWS Lambda",
+          "Serverless",
+          "Event-driven Architecture",
+          "API Design",
+        ],
+      },
+    ],
+  },
+  {
+    id: "tolstoy",
+    companyName: "Tolstoy",
+    positions: [
+      {
+        id: "1",
+        title: "Full Stack Engineer & AI Engineer",
+        employmentPeriod: {
+          start: "08.2024",
+          end: "03.2025",
+        },
+        employmentType: "Contract",
+        icon: "code",
+        description: `- Led architecture and rollout of multi-agent AI communication system for interactive video platform serving 10,000+ businesses; implemented parallel agent execution with 2-second timeout SLA, boosting response accuracy by 65% while maintaining sub-3s response times.
+- Designed agent orchestration strategy; chose weighted parallel approach with confidence-based ranking, reducing drafting time by 75% and cutting token consumption by 40%.
+- Established prompt engineering framework and quantitative evaluation metrics (accuracy, relevance, coherence); introduced systematic A/B testing that improved response quality scores by 40% and task completion rates by 55%.
+- Architected unified inbox consolidating 5+ communication channels; chose hybrid pull/push model to balance real-time delivery with API rate limit constraints.
+- Re-architected serverless infrastructure; migrated to SQS-based queue system with concurrent Lambda execution, enabling 3x request volume (30k→90k monthly) while maintaining 99.9% uptime.
+- Optimized cloud costs by profiling execution patterns and right-sizing resources, cutting infrastructure spend by 20% while reducing p95 latency by 60%.
+- Drove Linear API integration to automate task management workflows; designed webhook-triggered automation reducing manual workload by 30%.
+- Designed parallel ETL pipeline architecture; chose hybrid batch/streaming approach achieving 250% data throughput improvement.
+- Implemented idempotency keys, at-least-once delivery guarantees, and dead-letter queue monitoring, reducing data loss incidents from 12/month to 0.
+- Mentored 3 junior engineers through structured onboarding, design reviews, and pair programming; reduced production bugs by 35% and enabled juniors to own features independently within 6 weeks.
+- Championed adoption of AI development tools (GitHub Copilot, Claude, Windsurf), reducing development cycle time by 30% across 8-person engineering team.
+- Prototyped automated customer onboarding system, reducing average onboarding time from 6 weeks to 3 weeks and improving product activation rate by 40%.
+- Architected technical foundation for no-code AI workflow builder using React Flow-based visual editor.`,
         skills: [
           "TypeScript",
-          "Next.js",
-          "React Native",
-          "MobX",
-          "MobX-State-Tree",
-          "Tailwind CSS",
-          "Dify",
-          "Zalo Mini App",
-          "Agile",
-          "Teamwork",
-          "Research",
-          "Problem-solving",
+          "AWS Lambda",
+          "SQS",
+          "AI Agents",
+          "Linear API",
+          "React Flow",
+          "ETL",
+          "Serverless",
         ],
-      },
-      {
-        id: "1",
-        title: "UI Lead",
-        employmentPeriod: {
-          start: "10.2022",
-          end: "01.2026",
-        },
-        employmentType: "Full-time",
-        icon: "design",
-        description: `- Ensured UI/UX consistency and high-quality standards.
-- Designed intuitive, user-focused interfaces aligned with business goals.
-- Defined and established a cohesive UI style for Simplamo.`,
-        skills: ["Creativity", "UI/UX Design", "Figma"],
       },
     ],
   },
   {
-    id: "tungtung",
-    companyName: "Tung Tung",
-    companyLogo: "/images/companies/tungtung.webp",
+    id: "bilis-delivery",
+    companyName: "Bilis Delivery",
     positions: [
-      {
-        id: "3",
-        title: "Web Developer",
-        employmentPeriod: {
-          start: "2020",
-          end: "2022",
-        },
-        employmentType: "Full-time",
-        description: `- Built a scalable design system for consistency and efficiency.
-- Built a complex rich-text editor based on ProseMirror and Slate for customizable content creation.
-- Integrated APIs with the Backend Team to enhance functionality.`,
-        icon: "code",
-        skills: [
-          "React",
-          "Redux",
-          "Storybook",
-          "Lerna",
-          "Agile",
-          "Teamwork",
-          "Research",
-        ],
-      },
-      {
-        id: "2",
-        title: "Mobile Developer",
-        employmentPeriod: {
-          start: "2019",
-          end: "2020",
-        },
-        employmentType: "Full-time",
-        description: `- Rebuilt the app with React Native for better UX and performance.
-- Integrated MoMo and in-app purchases for seamless payments.
-- Optimized deployment for staging and production.
-- Published on App Store and Google Play, ensuring compliance.`,
-        icon: "code",
-        skills: [
-          "React Native",
-          "Redux",
-          "MoMo Payment API",
-          "App Store",
-          "Google Play Store",
-          "App Center",
-          "Agile",
-          "Teamwork",
-          "Research",
-        ],
-      },
       {
         id: "1",
-        title: "UI/UX Designer",
+        title: "Lead Full Stack Developer",
         employmentPeriod: {
-          start: "2018",
-          end: "2019",
+          start: "04.2024",
+          end: "12.2025",
         },
         employmentType: "Full-time",
-        description: `- Designed a Landing Page for enterprise clients.
-- Redesigned the Online Quiz Platform for a modern look on web and mobile.
-- Redesigned the Pricing interface for individual customers.
-- Enhanced UX by improving usability, navigation, and user flow.`,
-        icon: "design",
-        skills: ["UI/UX Design", "Sketch"],
-      },
-    ],
-  },
-  {
-    id: "freelance",
-    companyName: "Freelance",
-    positions: [
-      {
-        id: "2",
-        title: "Full-stack Developer",
-        employmentPeriod: {
-          start: "2018",
-          end: "2020",
-        },
-        employmentType: "Part-time",
-        description: `- Built an order management website with real-time delivery tracking.
-- Developed an e-commerce site for bird's nest products.
-- Created a map to display monitoring station data.
-- Designed a customizable WordPress landing page.`,
         icon: "code",
+        description: `- Led architecture and development of food delivery platform from concept to production, scaling to 10,000+ orders and 2,000+ users in first year; chose Laravel-based modular monolith with async job processing, maintaining 99.9% uptime during peak traffic.
+- Designed real-time order tracking system with WebSocket and fallback to long-polling, integrated Google Maps API with client-side position interpolation to reduce API calls by 60%, cutting customer support inquiries by 50%.
+- Architected payment integration supporting multiple methods (COD, credit card, in-app wallet); implemented payment gateway abstraction layer with Laravel Passport OAuth2 and SMS-based OTP, increasing payment success rate by 35%.
+- Designed zone-based driver matching algorithm with composite ranking (proximity, vehicle type, availability) and Redis-cached driver state, reducing wait time from 5 minutes to 90 seconds.
+- Diagnosed performance bottleneck causing 3.2s page loads; profiled queries with Laravel Telescope, implemented eager loading and strategic indexing with Redis caching, reducing p95 load time to 0.8s (75% improvement).
+- Implemented optimistic locking, batch processing with Laravel queues, and atomic database transactions, enabling 100+ concurrent orders during lunch rush without overselling inventory.
+- Designed multi-guard authentication supporting 4 user types with distinct permission models using Laravel Passport and custom guards.
+- Built granular RBAC system with JSON-configured permissions enabling business team to adjust access across 12+ modules via config without engineering involvement.
+- Architected backend as modular monolith using nwidart/laravel-modules with strict module boundaries, reducing code coupling and improving maintainability by 60%.`,
         skills: [
           "Laravel",
-          "React",
-          "Express.js",
-          "Socket.IO",
-          "MongoDB",
-          "Firebase",
-          "WordPress",
-          "Docker",
-          "NGINX",
+          "Redis",
+          "WebSocket",
+          "Google Maps API",
+          "Laravel Passport",
+          "Laravel Telescope",
+          "MySQL",
+          "nwidart/laravel-modules",
         ],
       },
+    ],
+  },
+  {
+    id: "develop-kreativity",
+    companyName: "Develop Kreativity",
+    positions: [
       {
         id: "1",
-        title: "Graphic & UI/UX Designer",
+        title: "Co-Founder & Chief Technology Officer",
         employmentPeriod: {
-          start: "2018",
-          end: "2019",
+          start: "11.2023",
+          end: "12.2025",
         },
-        employmentType: "Part-time",
-        description: "Designed logos, posters, ads, and UI.",
-        icon: "design",
+        employmentType: "Full-time",
+        icon: "business",
+        description: `- Co-founded digital agency from zero to 15+ clients across healthcare, retail, and technology sectors; chose integrated offering (brand strategy, AI automation, software development, UI/UX, content production) to increase deal size and client LTV.
+- Directed technical strategy and delivery for 30+ client projects; established standardized project frameworks and reusable components to reduce custom development by 40%, enabling 50% reduction in project timelines while maintaining 95% client satisfaction.
+- Built AI automation practice integrating tools into client marketing workflows; chose no-code platforms (Make, Zapier) for speed-to-value, reducing manual client operations by 50% and creating recurring revenue stream representing 30% of agency income.
+- Architected technology stack strategy across client engagements; established decision matrix based on technical complexity, timeline, and budget constraints, enabling 20+ clients to scale digital operations 3x.
+- Led brand strategy practice, increasing average client engagement by 60% and follower growth by 120% while reducing strategy development time by 50%.
+- Established UI/UX design practice with Figma; delivered 25+ redesigns improving average user satisfaction by 45% while reducing design iteration cycles from 4 weeks to 2 weeks.
+- Built content production pipeline; produced 100+ brand assets increasing client social engagement by 80% while cutting production time by 35%.
+- Drove AI chatbot integration strategy for client lead generation, improving response times by 70% and lead conversion rates by 35%.
+- Scaled cross-functional team from 2 co-founders to 10+ developers, designers, and marketers.`,
         skills: [
-          "Creativity",
-          "UI/UX Design",
-          "Graphic Design",
-          "Sketch",
-          "Adobe Photoshop",
-          "Adobe Illustrator",
+          "Next.js",
+          "Laravel",
+          "WordPress",
+          "Make",
+          "Zapier",
+          "Figma",
+          "Adobe Creative Suite",
+          "AI Automation",
         ],
+      },
+    ],
+  },
+  {
+    id: "uspf",
+    companyName: "University of Southern Philippines Foundation",
+    positions: [
+      {
+        id: "1",
+        title: "Full Stack Developer",
+        employmentPeriod: {
+          start: "07.2023",
+          end: "07.2026",
+        },
+        employmentType: "Full-time",
+        icon: "code",
+        description: `- Designed multi-agent AI chat system addressing 40% support request volume in student services; chose LangGraph state-graph pipeline with specialized agents (admissions, registrar, financial), achieving 85% query resolution accuracy and reducing support staff workload by 40%.
+- Architected mobile app consolidating 4 separate student services (digital ID, RFID attendance, statement-of-account, payments); chose React Native with REST API integration to Pinnacle ERP, increasing digital service adoption by 35% while reducing IT support requests by 25%.
+- Built queue management system serving 500+ students daily with Laravel/Vue.js and real-time WebSocket updates, reducing wait times by 80% from 2-hour average across 6 service offices.
+- Developed secure online election platform with MySQL, cryptographic vote hashing and audit trails, enabling 3,000+ voters and reducing counting time from 1 hour to 15 minutes.
+- Created digital repository system for 2,000+ theses and research papers; built Laravel-based system with Elasticsearch for advanced search, improving research accessibility by 70%.
+- Led PowerEdge R440 server infrastructure upgrade and document management system deployment; chose on-premise with virtualization due to data residency requirements, improving workflow efficiency by 60%.`,
+        skills: [
+          "LangGraph",
+          "React Native",
+          "Laravel",
+          "Vue.js",
+          "Elasticsearch",
+          "MySQL",
+          "WebSocket",
+          "Pinnacle ERP",
+        ],
+      },
+    ],
+  },
+  {
+    id: "mytoolz",
+    companyName: "MyToolz",
+    positions: [
+      {
+        id: "1",
+        title: "Back End Developer",
+        employmentPeriod: {
+          start: "07.2021",
+          end: "12.2021",
+        },
+        employmentType: "Full-time",
+        icon: "code",
+        description: `- Rebuilt high-traffic Blogger link locker after identifying critical security vulnerability in client-side base64 masking; migrated to externally hosted API with AES encryption and database ID obfuscation, improving security posture by 90% while maintaining sub-200ms response times.
+- Implemented strict referrer validation layer; chose HTTP referrer validation with origin verification, reducing unauthorized access by 70% without impacting legitimate traffic.
+- Developed multi-purpose PHP API toolkit consolidating validation services (proxy detection, email verification, crypto balances, account checks); designed RESTful interface with rate limiting and caching to handle 10,000+ daily requests with sub-500ms p95 latency.
+- Migrated validation logic from third-party APIs to in-house validation, reducing external API dependency by 40%, cutting operational costs by 50%, and improving uptime from 97% to 99.5%.`,
+        skills: ["PHP", "AES Encryption", "REST API", "cURL", "Rate Limiting"],
       },
     ],
   },
@@ -264,80 +261,45 @@ In-house Project: [ZaDark](https://zadark.com)
     companyName: "Education",
     positions: [
       {
-        id: "3",
-        title: "University of Science — VNUHCM",
+        id: "1",
+        title: "University of Southern Philippines Foundation",
         employmentPeriod: {
-          start: "08.2018",
-          end: "10.2026",
+          start: "2022",
+          end: "2026",
         },
         icon: "education",
-        description: `- Currently studying for a Bachelor's degree in Information Systems.
-- Language Proficiency: B1 level in English (CEFR).
-- Achieved several awards, including:
-  - Bronze Medal — 10th Design, Manufacturing, and Application Award 2022
-  - 2nd Prize — Business Startup Competition 2019`,
-        skills: [
-          "C++",
-          "Java",
-          "Python",
-          "PHP",
-          "DSA",
-          "Advanced Databases",
-          "Systems Design",
-          "Distributed Systems",
-          "Software Engineering",
-          "Teamwork",
-        ],
+        description: `- Bachelor of Science in Computer Science (Expected: 2026)
+- Thesis: Design and Implementation of a Cloud-Native Artificial Intelligence (AI) Call Center using Amazon Web Services and OpenAI
+- Honors: Dean's List (2022 - Present)`,
+        skills: ["Computer Science", "AWS", "OpenAI", "Software Engineering"],
       },
-      {
-        id: "2",
-        title: "Ly Tu Trong High School for the Gifted — Can Tho City",
-        employmentPeriod: {
-          start: "08.2015",
-          end: "06.2018",
-        },
-        icon: "education",
-        description: `- Student of the Specialized Computer Science Program.
-- Granted direct admission to university due to achieving 3rd Prize at the national level.
-- [Achieved numerous awards](https://baocantho.com.vn/nguyen-chanh-dai-17-tuoi-va-19-giai-thuong-a97348.html) at city and national levels, including:
-  - [3rd Prize](https://muctim.tuoitre.vn/cong-cu-ho-tro-viec-day-va-hoc-55107.htm) — National Science and Engineering Fair 2018 (ViSEF)
-  - 1st Prize — Can Tho City Science and Engineering Fair 2018
-  - Creativity Award — Binh Duong Hackathon 2017
-  - Consolation Prize — National Youth and Children's Creativity Contest 2016
-  - [1st Prize](https://www.youtube.com/watch?v=OYgugvjqU4A) — Can Tho City Youth and Children's Creativity Contest 2016
-  - 3rd Prize — National Young Informatics Contest 2016
-- Achieved the title of Outstanding Student from Grade 10-12.
-- Selected for the National Excellent Student Contest in Informatics for two consecutive years during high school.
-- Honored on the school's "Hall of Fame" for academic achievements.
-- Developed a feature using Node.js and Pandoc to recognize multiple-choice questions from .docx files and upload them to an [online quiz platform](https://youtu.be/QjR99wdmTyo) I created.
-- Developed websites based on Laravel framework.
-- Built websites with PHP and MySQL, following the MVC architecture.`,
-        skills: [
-          "Algorithms",
-          "C++",
-          "PHP",
-          "MySQL",
-          "Laravel",
-          "Node.js",
-          "Pandoc",
-        ],
-      },
+    ],
+  },
+  {
+    id: "the-beginning",
+    companyName: "Where It All Started",
+    positions: [
       {
         id: "1",
-        title: "Thuan Hung Secondary School",
+        title: "Self-taught Developer",
         employmentPeriod: {
-          start: "08.2011",
-          end: "06.2015",
+          start: "2016",
+          end: "2021",
         },
-        icon: "education",
-        description: `- Recognized as the most outstanding student of the district.
-- Achieved numerous awards at city and national levels:
-  - Consolation Prize — National Young Informatics Contest 2015
-  - Consolation Prize — National Young Informatics Contest 2014
-  - 1st Prize — Can Tho City Young Informatics Contest 2014
-- Achieved the title of Outstanding Student from Grade 6-9.
-- Developed websites using the open-source NukeViet CMS.`,
-        skills: ["Pascal", "NukeViet", "HTML", "CSS", "JavaScript"],
+        icon: "code",
+        description: `- Started coding through reverse engineering Android applications, learning Smali bytecode by decompiling APKs and understanding how software works from the inside out.
+- Self-taught PHP, Java, and web development using early mobile web builders (WAPKA, WAP, XHTML), building websites and tools from scratch before any formal education.
+- Explored cloud infrastructure early on, working with GCP and Windows servers on Azure; learned security fundamentals through dorking and penetration testing tools like Havij.
+- Collaborated with developer communities including ZyberPH Developers, Dark Developers, and DDEV Philippines, contributing to projects and learning from peers in the Filipino dev scene.`,
+        skills: [
+          "PHP",
+          "Java",
+          "Smali",
+          "XHTML",
+          "GCP",
+          "Azure",
+          "Reverse Engineering",
+        ],
       },
     ],
   },

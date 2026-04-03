@@ -15,7 +15,7 @@ Ensure you have the following installed:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/ncdai/chanhdai.com.git minimal-dev-portfolio
+git clone https://github.com/dnachavez/portfolio-v3.git minimal-dev-portfolio
 cd minimal-dev-portfolio
 ```
 
@@ -49,7 +49,7 @@ Then, update the necessary environment variables inside `.env.local`.
 pnpm dev
 ```
 
-The application should now be available at http://ncdai.localhost:1355
+The application should now be available at http://dnachavez.localhost:1355
 
 ## Building for Production
 

@@ -1,65 +1,116 @@
 import type { User } from "@/features/portfolio/types/user"
 
 export const USER: User = {
-  firstName: "Chánh Đại",
-  lastName: "Nguyễn",
-  displayName: "Chánh Đại",
-  username: "ncdai",
+  firstName: "Dan",
+  lastName: "Chavez",
+  displayName: "Dan Chavez",
+  username: "dnachavez",
   gender: "male",
   pronouns: "he/him",
-  bio: "Creating with code. Small details matter.",
+  bio: "Building AI agents that handle real conversations, real users, and real scale.",
   flipSentences: [
-    "Creating with code. Small details matter.",
-    "Design Engineer",
-    "Open Source Contributor",
+    "Building AI agents that handle real conversations, real users, and real scale.",
+    "AI Engineer",
+    "Founding Engineer",
+    "Full Stack Engineer",
+    "Computer Science Student",
   ],
-  address: "Ho Chi Minh City, Viet Nam",
-  phoneNumber: "Kzg0Nzc3ODg4MTQ4", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
-  email: "ZGFpQGNoYW5oZGFpLmNvbQ==", // base64 encoded
-  website: "https://chanhdai.com",
-  jobTitle: "Design Engineer",
+  address: "Cebu City, Philippines",
+  phoneNumber: "KzYzOTU2MzkwMTgxMw==", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
+  email: "ZG5hLmNoYXZlekBvdXRsb29rLmNvbQ==", // base64 encoded
+  website: "https://dnachavez.com",
+  jobTitle: "AI Engineer",
   jobs: [
     {
-      title: "Design Engineer",
-      company: "shadcncraft",
-      website: "https://shadcncraft.com",
-      experienceId: "shadcncraft",
-    },
-    {
-      title: "Founder",
-      company: "Quaric",
-      website: "https://quaric.com",
-      experienceId: "quaric",
+      title: "Full Stack Developer",
+      company: "Aeva AI Receptionist",
+      website: "https://www.aevaai.com",
+      experienceId: "aevaai",
     },
   ],
   about: `
-- **Design Engineer** with 5+ years of experience, known for pixel-perfect execution and strong attention to small details.
-- Skilled in **Next.js**, **React**, **TypeScript**, and modern front-end technologies; building high-quality, user-centric web and mobile applications.
-- Passionate about exploring new technologies and turning ideas into reality through polished, thoughtfully crafted personal projects.
-- Creator of [ZaDark](https://zadark.com) (2022): enhances the Zalo experience on PC & Web
-  - 80k+ downloads on [SourceForge](https://sourceforge.net/projects/zadark)*
-  - 30k+ active users on the [Chrome Web Store](https://chromewebstore.google.com/detail/llfhpkkeljlgnjgkholeppfnepmjppob)*
-- Creator of [React Wheel Picker](https://react-wheel-picker.chanhdai.com): iOS-like wheel picker with inertia scrolling & infinite loop
-  - 12k+ weekly downloads on [npm](https://www.npmjs.com/package/@ncdai/react-wheel-picker)*
-  - [▲Vercel OSS Program](https://vercel.com/blog/summer-2025-oss-program#react-wheel-picker) summer 2025 cohort
-
-<p class="text-muted-foreground">* Peak metrics recorded; actual current figures may vary.</p>
+- **Full Stack AI Engineer** with 4+ years of experience building production-grade AI systems, voice AI platforms, and scalable web applications.
+- Skilled in **React**, **Node.js**, **TypeScript**, **Python**, and **PHP**; shipping AI-powered products serving thousands of users across multiple countries.
+- Passionate about architecting multi-agent systems and automation workflows that solve real operational problems at scale.
+- Full Stack Developer at [Aeva AI Receptionist](https://www.aevaai.com): AI-powered phone receptionist for healthcare clinics
+  - ~500 clinics across 5 countries, processing 100+ calls daily
+  - Voice AI integration with VAPI, Cliniko, and Twilio
+- Full Stack & AI Engineer at [Tolstoy](https://gotolstoy.com): multi-agent AI system for interactive video platform
+  - Serving 10,000+ businesses with sub-3s response times
+  - Scaled serverless infrastructure 3x (30k→90k monthly requests) at 99.9% uptime
+- Founding Engineer at [Framework](https://frameworkos.ai): solo-built AI responder and task manager from zero to production
+  - 92% response accuracy using RAG architecture
+  - 99.9% uptime on serverless infrastructure with 40% cost reduction
+- Co-founded [Develop Kreativity](https://developkreativity.com): digital agency serving 15+ clients across healthcare, retail, and technology
+  - Delivered 30+ projects with AI automation, generating 30% of agency revenue
+  - Scaled team from 2 co-founders to 10+ across development, design, and marketing
+- Active in the developer community as a technical volunteer at [AWS Community Day](https://www.facebook.com/awsugcebu), [GDG Cebu](https://gdg.community.dev/gdg-cebu), and [Pandesal.dev](https://discord.gg/pandesal-dev)
+- Founding member of [DEVS100](https://www.devs100.com), a curated private network of top developers
+- Dean's List (2022–Present) while working full-time across international engineering teams
+<p class="text-muted-foreground">* Metrics based on production data during tenure; actual current figures may vary.</p>
 `,
-  avatar: "/images/chanhdai-avatar-ghibli.webp",
+  avatar: "/images/dnachavez-avatar.png",
   ogImage: "/images/screenshot-og-image-dark.png",
   namePronunciationUrl: "/audio/chanhdai.mp3",
-  timeZone: "Asia/Ho_Chi_Minh",
+  timeZone: "Asia/Manila",
   keywords: [
-    "ncdai",
-    "nguyenchanhdai",
-    "nguyen chanh dai",
-    "chanhdai",
-    "chanh dai",
-    "iamncdai",
-    "quaric",
-    "zadark",
-    "nguyễn chánh đại",
-    "chánh đại",
+    "dan chavez",
+    "dnachavez",
+    "danchavez",
+    "dna chavez",
+    "dnachavez com",
+    "dnachavez.com",
+    "dnachavez dev",
+    "dnachavez.dev",
+    "dan chavez ai engineer",
+    "dan chavez full stack engineer",
+    "aeva ai",
+    "aeva ai receptionist",
+    "gotolstoy",
+    "tolstoy ai",
+    "goteam ai specialist",
+    "frameworkos.ai",
+    "framework founding engineer",
+    "bilis delivery",
+    "develop kreativity",
+    "uspf computer science",
+    "university of southern philippines foundation",
+    "full stack engineer",
+    "full stack developer",
+    "ai engineer",
+    "full stack ai engineer",
+    "founding engineer",
+    "python developer",
+    "typescript developer",
+    "php developer",
+    "react developer",
+    "nextjs developer",
+    "nodejs developer",
+    "openai developer",
+    "anthropic developer",
+    "claude developer",
+    "google gemini developer",
+    "voice ai developer",
+    "prompt engineer",
+    "ai automation engineer",
+    "ai specialist",
+    "aws developer",
+    "serverless framework",
+    "langchain developer",
+    "langgraph developer",
+    "multi-agent ai developer",
+    "rag engineer",
+    "retrieval augmented generation",
+    "n8n automation",
+    "n8n developer",
+    "supabase developer",
+    "pinecone developer",
+    "hugging face transformers",
+    "devs100",
+    "pandesal dev",
+    "gdg cebu",
+    "aws community day cebu",
+    "google data analytics professional certificate",
   ],
-  dateCreated: "2023-10-20", // YYYY-MM-DD
+  dateCreated: "2026-03-23", // YYYY-MM-DD
 }

@@ -15,9 +15,15 @@ export function ProfileHeader() {
         <div className="mx-0.5 my-0.75">
           <AvatarElectricEffect>
             <img
-              className="size-30 rounded-full ring-1 ring-border ring-offset-2 ring-offset-background select-none sm:size-40"
+              className="hidden size-30 rounded-full ring-1 ring-border ring-offset-2 ring-offset-background select-none sm:size-40 [html.light_&]:block"
               alt="Avatar"
-              src={USER.avatar}
+              src="/images/dnachavez-avatar.png"
+              fetchPriority="high"
+            />
+            <img
+              className="hidden size-30 rounded-full ring-1 ring-border ring-offset-2 ring-offset-background select-none sm:size-40 [html.dark_&]:block"
+              alt="Avatar"
+              src="/images/dnachavez-avatar-dark.png"
               fetchPriority="high"
             />
           </AvatarElectricEffect>
