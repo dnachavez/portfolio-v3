@@ -3,7 +3,7 @@ import { getAllDocs } from "@/features/doc/data/documents"
 
 const allPosts = getAllDocs()
 
-const content = `# chanhdai.com
+const content = `# dnachavez.com
 
 > A minimal, pixel-perfect dev portfolio, shadcn registry, and blog to showcase my work as a Design Engineer.
 
@@ -14,8 +14,6 @@ const content = `# chanhdai.com
 - [Certifications](${SITE_INFO.url}/certifications.md): Certifications and credentials I've earned.
 
 ## Blog
-
-${allPosts.map((item) => `- [${item.metadata.title}](${SITE_INFO.url}/blog/${item.slug}.mdx): ${item.metadata.description}`).join("\n")}
 `
 
 export const revalidate = false

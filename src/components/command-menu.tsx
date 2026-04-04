@@ -65,16 +65,16 @@ const MENU_LINKS: CommandLinkItem[] = [
     href: "/",
     icon: DNachavezMark,
   },
-  {
-    title: "Blog",
-    href: "/blog",
-    icon: Icons.news,
-  },
-  {
-    title: "Sponsors",
-    href: "/sponsors",
-    icon: Icons.favourite,
-  },
+  // {
+  //   title: "Blog",
+  //   href: "/blog",
+  //   icon: Icons.news,
+  // },
+  // {
+  //   title: "Sponsors",
+  //   href: "/sponsors",
+  //   icon: Icons.favourite,
+  // },
 ]
 
 const PORTFOLIO_LINKS: CommandLinkItem[] = [
@@ -83,11 +83,11 @@ const PORTFOLIO_LINKS: CommandLinkItem[] = [
     href: "/#about",
     icon: TextInitialIcon,
   },
-  {
-    title: "Testimonials",
-    href: "/testimonials",
-    icon: QuoteIcon,
-  },
+  // {
+  //   title: "Testimonials",
+  //   href: "/testimonials",
+  //   icon: QuoteIcon,
+  // },
   {
     title: "Tech Stack",
     href: "/#stack",
@@ -113,16 +113,16 @@ const PORTFOLIO_LINKS: CommandLinkItem[] = [
     href: "/#certs",
     icon: CircleCheckBigIcon,
   },
-  {
-    title: "Bookmarks",
-    href: "/#bookmarks",
-    icon: BookmarkIcon,
-  },
-  {
-    title: "Download vCard",
-    href: "/vcard",
-    icon: DownloadIcon,
-  },
+  // {
+  //   title: "Bookmarks",
+  //   href: "/#bookmarks",
+  //   icon: BookmarkIcon,
+  // },
+  // {
+  //   title: "Download vCard",
+  //   href: "/vcard",
+  //   icon: DownloadIcon,
+  // },
 ]
 
 const SOCIAL_LINK_ITEMS: CommandLinkItem[] = SOCIAL_LINKS.map((item) => ({
@@ -280,12 +280,12 @@ export function CommandMenu({
             onLinkSelect={handleOpenLink}
           />
 
-          <CommandLinkGroup
+          {/* <CommandLinkGroup
             heading="Blog"
             links={blogLinks}
             fallbackIcon={Icons.news}
             onLinkSelect={handleOpenLink}
-          />
+          /> */}
 
           <CommandLinkGroup
             heading="Social Links"
@@ -318,7 +318,7 @@ export function CommandMenu({
               Copy Logotype as SVG
             </CommandItem>
 
-            <CommandItem
+            {/* <CommandItem
               onSelect={() => handleOpenLink("/blog/chanhdai-brand")}
             >
               <TriangleDashedIcon />
@@ -330,7 +330,7 @@ export function CommandMenu({
                 <DownloadIcon />
                 Download Brand Assets
               </a>
-            </CommandItem>
+            </CommandItem> */}
           </CommandGroup>
 
           <CommandGroup heading="Theme">
