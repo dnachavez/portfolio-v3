@@ -13,7 +13,7 @@ export function SiteFooter() {
         </p>
 
         <p className="mb-4 px-4 text-center font-mono text-sm text-balance text-muted-foreground">
-          Built by{" "}
+          Designed by{" "}
           <a
             className="link transition-[color] hover:text-foreground"
             href="https://x.com/iamncdai"

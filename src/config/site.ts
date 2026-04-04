@@ -19,15 +19,15 @@ export const MAIN_NAV: NavItem[] = [
     title: "Home",
     href: "/",
   },
-  {
-    title: "Blog",
-    href: "/blog",
-  },
-  {
-    title: "Sponsors",
-    href: "/sponsors",
-    className: "sm:max-md:hidden",
-  },
+  // {
+  //   title: "Blog",
+  //   href: "/blog",
+  // },
+  // {
+  //   title: "Sponsors",
+  //   href: "/sponsors",
+  //   className: "sm:max-md:hidden",
+  // },
 ]
 
 export const X_USERNAME = "@dnachavez_dev"
