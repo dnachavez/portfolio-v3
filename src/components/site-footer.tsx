@@ -22,7 +22,7 @@ export function SiteFooter() {
           >
             ncdai
           </a>
-          . The source code is available on{" "}
+          {/* . The source code is available on{" "}
           <a
             className="link transition-[color] hover:text-foreground"
             href={SOURCE_CODE_GITHUB_URL}
@@ -30,7 +30,7 @@ export function SiteFooter() {
             rel="noopener"
           >
             GitHub
-          </a>
+          </a> */}
           .
         </p>
 
