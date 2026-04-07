@@ -49,7 +49,7 @@ export function SiteFooter() {
 
             <a
               className="flex items-center text-muted-foreground transition-[color] hover:text-foreground"
-              href="https://x.com/dnachavez_dev?utm_source=dnachavez.com"
+              href="https://x.com/dnachavez_dev?utm_source=dnachavez.dev"
               target="_blank"
               rel="noopener"
             >
@@ -61,7 +61,7 @@ export function SiteFooter() {
 
             <a
               className="flex items-center text-muted-foreground transition-[color] hover:text-foreground"
-              href="https://github.com/dnachavez?utm_source=dnachavez.com"
+              href="https://github.com/dnachavez?utm_source=dnachavez.dev"
               target="_blank"
               rel="noopener"
             >
@@ -73,7 +73,7 @@ export function SiteFooter() {
 
             <a
               className="flex items-center text-muted-foreground transition-[color] hover:text-foreground"
-              href="https://www.linkedin.com/in/dnachavez?utm_source=dnachavez.com"
+              href="https://www.linkedin.com/in/dnachavez?utm_source=dnachavez.dev"
               target="_blank"
               rel="noopener"
             >

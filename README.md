@@ -1,11 +1,11 @@
-# [dnachavez.com](https://dnachavez.com) &middot; [![GitHub License](https://img.shields.io/github/license/dnachavez/portfolio-v3?label=License)](https://github.com/dnachavez/portfolio-v3/blob/main/LICENSE) ![GitHub Repo Views](https://gitviews.com/repo/dnachavez/portfolio-v3.svg?style=flat&label-color=%23555&color=%23f59e0b)
+# [dnachavez.dev](https://dnachavez.dev) &middot; [![GitHub License](https://img.shields.io/github/license/dnachavez/portfolio-v3?label=License)](https://github.com/dnachavez/portfolio-v3/blob/main/LICENSE) ![GitHub Repo Views](https://gitviews.com/repo/dnachavez/portfolio-v3.svg?style=flat&label-color=%23555&color=%23f59e0b)
 
 A minimal, pixel-perfect dev portfolio, and blog to showcase my work as an AI Engineer.
 
-→ Check out the live site: [dnachavez.com](https://dnachavez.com)
+→ Check out the live site: [dnachavez.dev](https://dnachavez.dev)
 
-[![screenshot-dark](./public/images/screenshot-desktop-dark.webp#gh-dark-mode-only)](https://dnachavez.com#gh-dark-mode-only)
-[![screenshot-light](./public/images/screenshot-desktop-light.webp#gh-light-mode-only)](https://dnachavez.com#gh-light-mode-only)
+[![screenshot-dark](./public/images/screenshot-desktop-dark.webp#gh-dark-mode-only)](https://dnachavez.dev#gh-dark-mode-only)
+[![screenshot-light](./public/images/screenshot-desktop-light.webp#gh-light-mode-only)](https://dnachavez.dev#gh-light-mode-only)
 
 ## Overview
 

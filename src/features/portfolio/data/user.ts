@@ -18,7 +18,7 @@ export const USER: User = {
   address: "Cebu City, Philippines",
   phoneNumber: "KzYzOTU2MzkwMTgxMw==", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
   email: "ZG5hLmNoYXZlekBvdXRsb29rLmNvbQ==", // base64 encoded
-  website: "https://dnachavez.com",
+  website: "https://dnachavez.dev",
   jobTitle: "AI Engineer",
   jobs: [
     {
@@ -59,7 +59,7 @@ export const USER: User = {
     "danchavez",
     "dna chavez",
     "dnachavez com",
-    "dnachavez.com",
+    "dnachavez.dev",
     "dnachavez dev",
     "dnachavez.dev",
     "dan chavez ai engineer",

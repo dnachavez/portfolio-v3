@@ -8,7 +8,7 @@ export const PROJECTS: Project[] = [
       start: "02.2026",
       end: "02.2026",
     },
-    link: "",
+    link: "https://github.com/gat-so/swarm",
     skills: ["React", "Node.js", "OpenClaw", "Canvas 2D", "Gemini"],
     description:
       "An AI simulation panel featuring a game-like top-down view where agents appear as animated characters in a mini-community.",

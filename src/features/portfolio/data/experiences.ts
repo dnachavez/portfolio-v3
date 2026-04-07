@@ -4,6 +4,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "aeva",
     companyName: "Aeva AI Receptionist",
+    companyWebsite: "https://www.aevaai.com",
     positions: [
       {
         id: "1",
@@ -34,6 +35,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "goteam",
     companyName: "GoTeam",
+    companyWebsite: "https://go.team",
     positions: [
       {
         id: "1",
@@ -44,7 +46,7 @@ export const EXPERIENCES: Experience[] = [
         },
         employmentType: "Full-time",
         icon: "code",
-        description: `- Led design and rollout of multi-agent AI automation platform across research, analysis, and project management workflows, balancing cost, latency, and reliability constraints to reduce operational load by 70% for cross-functional U.S. client teams.
+        description: `- Led design and rollout of multi-agent AI automation platform for [Fox Three Partners](https://fox3partners.com) across research, analysis, and project management workflows, balancing cost, latency, and reliability constraints to reduce operational load by 70% for cross-functional U.S. client teams.
 - Architected n8n-based orchestration engine with intelligent task routing after evaluating event-driven vs schedule-based execution; chose hybrid approach to minimize latency while controlling API costs, eliminating 100% of manual triage.
 - Drove model selection for research agents by benchmarking OpenAI's o4-mini vs o3-deep-research, identifying 40% cost savings with o4-mini for routine research while reserving o3-deep-research for complex analysis, cutting research time by 80%.
 - Designed financial analysis agent applying custom business validation logic to operational data; traded strict schema enforcement for flexible JSON output to reduce parsing failures by 85%.
@@ -69,6 +71,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "framework",
     companyName: "Framework",
+    companyWebsite: "https://frameworkos.ai",
     positions: [
       {
         id: "1",
@@ -97,6 +100,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "tolstoy",
     companyName: "Tolstoy",
+    companyWebsite: "https://gotolstoy.com",
     positions: [
       {
         id: "1",
@@ -136,6 +140,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "bilis-delivery",
     companyName: "Bilis Delivery",
+    companyWebsite: "https://bilisdelivery.com",
     positions: [
       {
         id: "1",
@@ -171,6 +176,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "develop-kreativity",
     companyName: "Develop Kreativity",
+    companyWebsite: "https://www.developkreativity.com",
     positions: [
       {
         id: "1",
@@ -189,6 +195,7 @@ export const EXPERIENCES: Experience[] = [
 - Established UI/UX design practice with Figma; delivered 25+ redesigns improving average user satisfaction by 45% while reducing design iteration cycles from 4 weeks to 2 weeks.
 - Built content production pipeline; produced 100+ brand assets increasing client social engagement by 80% while cutting production time by 35%.
 - Drove AI chatbot integration strategy for client lead generation, improving response times by 70% and lead conversion rates by 35%.
+- Notable public projects include [Lyons Global](https://lyonsglobal.us) website redesign and [LMS platform](https://lms.lyonsglobal.us) for a digital health solutions company.
 - Scaled cross-functional team from 2 co-founders to 10+ developers, designers, and marketers.`,
         skills: [
           "Next.js",
@@ -206,6 +213,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "uspf",
     companyName: "University of Southern Philippines Foundation",
+    companyWebsite: "https://uspf.edu.ph",
     positions: [
       {
         id: "1",
@@ -218,10 +226,11 @@ export const EXPERIENCES: Experience[] = [
         icon: "code",
         description: `- Designed multi-agent AI chat system addressing 40% support request volume in student services; chose LangGraph state-graph pipeline with specialized agents (admissions, registrar, financial), achieving 85% query resolution accuracy and reducing support staff workload by 40%.
 - Architected mobile app consolidating 4 separate student services (digital ID, RFID attendance, statement-of-account, payments); chose React Native with REST API integration to Pinnacle ERP, increasing digital service adoption by 35% while reducing IT support requests by 25%.
-- Built queue management system serving 500+ students daily with Laravel/Vue.js and real-time WebSocket updates, reducing wait times by 80% from 2-hour average across 6 service offices.
-- Developed secure online election platform with MySQL, cryptographic vote hashing and audit trails, enabling 3,000+ voters and reducing counting time from 1 hour to 15 minutes.
+- Built [queue management system](https://kiosk.uspf.edu.ph/new-kiosk) serving 500+ students daily with Laravel/Vue.js and real-time WebSocket updates, reducing wait times by 80% from 2-hour average across 6 service offices.
+- Developed secure online election platforms ([JHS](https://jhselection.uspf.edu.ph), [SHS](https://shselection.uspf.edu.ph)) with MySQL, cryptographic vote hashing and audit trails, enabling 3,000+ voters and reducing counting time from 1 hour to 15 minutes.
+- Built [electronic judging system](https://ejs.uspf.edu.ph) for university events, enabling real-time score tabulation and transparent judging workflows.
 - Created digital repository system for 2,000+ theses and research papers; built Laravel-based system with Elasticsearch for advanced search, improving research accessibility by 70%.
-- Led PowerEdge R440 server infrastructure upgrade and document management system deployment; chose on-premise with virtualization due to data residency requirements, improving workflow efficiency by 60%.`,
+- Led PowerEdge R440 server infrastructure upgrade and [document resource management system](https://drms.uspf.edu.ph) deployment; chose on-premise with virtualization due to data residency requirements, improving workflow efficiency by 60%.`,
         skills: [
           "LangGraph",
           "React Native",
@@ -238,6 +247,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "mytoolz",
     companyName: "MyToolz",
+    companyWebsite: "https://mytoolz.net",
     positions: [
       {
         id: "1",
@@ -246,7 +256,7 @@ export const EXPERIENCES: Experience[] = [
           start: "07.2021",
           end: "12.2021",
         },
-        employmentType: "Full-time",
+        employmentType: "Freelance",
         icon: "code",
         description: `- Rebuilt high-traffic Blogger link locker after identifying critical security vulnerability in client-side base64 masking; migrated to externally hosted API with AES encryption and database ID obfuscation, improving security posture by 90% while maintaining sub-200ms response times.
 - Implemented strict referrer validation layer; chose HTTP referrer validation with origin verification, reducing unauthorized access by 70% without impacting legitimate traffic.
@@ -270,8 +280,21 @@ export const EXPERIENCES: Experience[] = [
         icon: "education",
         description: `- Bachelor of Science in Computer Science (Expected: 2026)
 - Thesis: Design and Implementation of a Cloud-Native Artificial Intelligence (AI) Call Center using Amazon Web Services and OpenAI
-- Honors: Dean's List (2022 - Present)`,
+- Honors: Dean's List (2022 - Present)
+- Notable Projects: [AuggieGPT](https://auggiegpt.streamlit.app), Buddy, [USPF IoT Parking System](https://github.com/dnachavez/iotparkingsystem), CERTIfy, [SentiAI](https://github.com/dnachavez/fine-tuning-tinybert-for-sentiment-analysis), TESTIfy, [SWARMIfy](https://github.com/gat-so/swarm)`,
         skills: ["Computer Science", "AWS", "OpenAI", "Software Engineering"],
+      },
+      {
+        id: "2",
+        title: "Dumalag Central National High School",
+        employmentPeriod: {
+          start: "2020",
+          end: "2022",
+        },
+        icon: "education",
+        description: `- Senior High School, STEM Strand
+- Notable Project: TrackTrace, a COVID-19 contact tracing app that won 3rd Place at the TCS Digital Innovation goIT App Development competition`,
+        skills: ["STEM", "App Development"],
       },
     ],
   },
@@ -288,6 +311,9 @@ export const EXPERIENCES: Experience[] = [
         },
         icon: "code",
         description: `- Started coding through reverse engineering Android applications, learning Smali bytecode by decompiling APKs and understanding how software works from the inside out.
+- Built [Netify VPN](https://www.ayodata.com.ng/2016/02/mtn-with-netify-vpn-settings-how-to-use.html), a Psiphon-based VPN handler for Android that provided free internet access by tunneling traffic through proxy configurations; gained early experience in networking, tunneling protocols, and mobile app development.
+- Developed [Drop Tools](https://phcorner.org/threads/drop-tools-mlbb-amazon-drop.963709/), an Android app for automating Amazon Prime reward drops in Mobile Legends: Bang Bang, featuring account creation, subscription renewal, account recovery, and a drop booster for claiming in-game loot; distributed through the PHCorner developer community.
+- Built [Fakecez MLBB Mod Key Generator](https://www.youtube.com/shorts/Iy19xcgKgr0), a tool that automated API key retrieval for the Fakecez MLBB Mod cheat engine by bypassing ad-heavy redirect chains, streamlining a tedious multi-step process into a single action.
 - Self-taught PHP, Java, and web development using early mobile web builders (WAPKA, WAP, XHTML), building websites and tools from scratch before any formal education.
 - Explored cloud infrastructure early on, working with GCP and Windows servers on Azure; learned security fundamentals through dorking and penetration testing tools like Havij.
 - Collaborated with developer communities including ZyberPH Developers, Dark Developers, and DDEV Philippines, contributing to projects and learning from peers in the Filipino dev scene.`,
@@ -299,6 +325,7 @@ export const EXPERIENCES: Experience[] = [
           "GCP",
           "Azure",
           "Reverse Engineering",
+          "Brackets",
         ],
       },
     ],

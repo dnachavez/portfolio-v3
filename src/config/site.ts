@@ -3,7 +3,7 @@ import type { NavItem } from "@/types/nav"
 
 export const SITE_INFO = {
   name: USER.displayName,
-  url: process.env.APP_URL || "https://dnachavez.com",
+  url: process.env.APP_URL || "https://dnachavez.dev",
   ogImage: USER.ogImage,
   description: USER.bio,
   keywords: USER.keywords,
@@ -39,5 +39,5 @@ export const SOURCE_CODE_GITHUB_URL =
 export const SPONSORSHIP_URL = "https://github.com/sponsors/dnachavez"
 
 export const UTM_PARAMS = {
-  utm_source: "dnachavez.com",
+  utm_source: "dnachavez.dev",
 }
