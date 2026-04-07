@@ -1,7 +1,7 @@
 import { RssIcon } from "lucide-react"
 
 import { Icons } from "@/components/icons"
-import { SITE_INFO, SOURCE_CODE_GITHUB_URL } from "@/config/site"
+import { SITE_INFO } from "@/config/site"
 import { cn } from "@/lib/utils"
 
 export function SiteFooter() {

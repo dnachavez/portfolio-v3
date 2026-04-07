@@ -5,26 +5,22 @@ import { useCommandState } from "cmdk"
 import type { LucideProps } from "lucide-react"
 import {
   AwardIcon,
-  BookmarkIcon,
   BoxIcon,
   BriefcaseBusinessIcon,
   CircleCheckBigIcon,
   CornerDownLeftIcon,
-  DownloadIcon,
   FileTextIcon,
   LayersIcon,
   MoonStarIcon,
   MousePointer2Icon,
-  QuoteIcon,
   RssIcon,
   SunMediumIcon,
   TextInitialIcon,
-  TriangleDashedIcon,
   TypeIcon,
 } from "lucide-react"
 import Image from "next/image"
 import { useTheme } from "next-themes"
-import React, { useCallback, useEffect, useMemo, useState } from "react"
+import React, { useCallback, useEffect, useState } from "react"
 import { useHotkeys } from "react-hotkeys-hook"
 import { toast } from "sonner"
 
@@ -148,10 +144,9 @@ const OTHER_LINK_ITEMS: CommandLinkItem[] = [
 ]
 
 export function CommandMenu({
-  posts,
   enabledHotkeys = false,
 }: {
-  posts: DocPreview[]
+  posts?: DocPreview[]
   enabledHotkeys?: boolean
 }) {
   const router = useRouter()
@@ -245,8 +240,6 @@ export function CommandMenu({
       },
     })
   }, [setIsDuckFollowerVisible])
-
-  const blogLinks = useMemo(() => posts.map(postToCommandLinkItem), [posts])
 
   return (
     <>
@@ -545,11 +538,4 @@ function CommandMenuFooter() {
       </div>
     </>
   )
-}
-
-function postToCommandLinkItem(post: DocPreview): CommandLinkItem {
-  return {
-    title: post.title,
-    href: `/blog/${post.slug}`,
-  }
 }

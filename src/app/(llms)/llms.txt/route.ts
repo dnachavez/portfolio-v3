@@ -1,7 +1,4 @@
 import { SITE_INFO } from "@/config/site"
-import { getAllDocs } from "@/features/doc/data/documents"
-
-const allPosts = getAllDocs()
 
 const content = `# dnachavez.dev
 
